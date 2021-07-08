@@ -16,7 +16,7 @@ You should see the following message in the command line:
 Navigate to the given port number in your browser: localhost:8000 .
 
 ## Web Page dashboard look like
-![screenshot]()
+![screenshot](https://github.com/hayden0098/BellyButton/blob/main/images/screenshot.jpg)
 
 * Dropdown menu on the left is for selecting the Test Subject ID number.
 * Bar Chart display the top 10 bacterial species (OTUs) when an individual's ID is selcted. X-axis = ID, Y-axis = sample values
