@@ -14,3 +14,16 @@ You should see the following message in the command line:
   127.0.0.1 - - [30/Oct/2019 13:23:53] "GET / HTTP/1.1" 304 -
   
 Navigate to the given port number in your browser: localhost:8000 .
+
+## Web Page dashboard look like
+![screenshot]()
+
+* Dropdown menu on the left is for selecting the Test Subject ID number.
+* Bar Chart display the top 10 bacterial species (OTUs) when an individual's ID is selcted. X-axis = ID, Y-axis = sample values
+* Bubble Chart display the following when individual's ID is selcted:
+  1. The otu_ids as the x-axis values.
+  2. The sample_values as the y-axis values.
+  3. The sample_values as the marker size.
+  4. The otu_ids as the marker colors.
+  5. The otu_labels as the hover-text values.
+* Gauge Chart displays the weekly washing frequency's value, 0-19 on the progress bar
